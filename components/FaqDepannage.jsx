@@ -2,7 +2,6 @@
 
 import React, { useState } from 'react';
 
-// FAQ centrée sur : dépannage, remorquage, panne batterie, crevaison, carburant, clés...
 const faqData = [
   {
     id: 'q1',
@@ -43,7 +42,7 @@ const faqData = [
 ];
 
 export default function FaqDepannage() {
-  const [openId, setOpenId] = useState('q2'); // 2e question ouverte par défaut
+  const [openId, setOpenId] = useState('q2');
 
   const toggleItem = (id) => {
     setOpenId((prev) => (prev === id ? null : id));
@@ -52,7 +51,7 @@ export default function FaqDepannage() {
   return (
     <section className="faq-section" id="Faq">
 
-      {/* En-tête FAQ */}
+      
       <div className="service-header">
         <div className="tag">Dépannage & Remorquage</div>
         <h2 className="sectiontitle">Questions fréquentes</h2>
@@ -61,7 +60,7 @@ export default function FaqDepannage() {
         </p>
       </div>
 
-      {/* Bloc FAQ */}
+      
       <div className="faq-container">
         {faqData.map((item) => {
           const isOpen = item.id === openId;
@@ -70,7 +69,7 @@ export default function FaqDepannage() {
           return (
             <div key={item.id} className={`faq-item ${isOpen ? 'open' : ''}`}>
               
-              {/* En-tête de question */}
+              
               <div
                 className="faq-header"
                 onClick={() => toggleItem(item.id)}
@@ -83,7 +82,7 @@ export default function FaqDepannage() {
                 </div>
               </div>
 
-              {/* Réponse */}
+              
               <div
                 className={`faq-answer-wrapper ${isOpen ? 'open' : ''}`}
                 style={{

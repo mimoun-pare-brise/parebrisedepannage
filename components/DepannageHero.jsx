@@ -79,7 +79,7 @@ export default function DepannageHero() {
       </div>
 
       <div className="hero-widgets-container">
-        {/* FORMULAIRE */}
+        
         <div className="widget-box booking-widget">
           <h3> Réserver une intervention </h3>
 
@@ -116,7 +116,7 @@ export default function DepannageHero() {
             </div>
 
             <div className="form-row-dep">
-              {/* 📅 Calendrier natif mobile + desktop */}
+              
               <input
                 type="date"
                 name="date"
@@ -169,7 +169,7 @@ export default function DepannageHero() {
           </form>
         </div>
 
-        {/* BLOC URGENCE */}
+        
         <div className="widget-box call-widget">
           <h3>Urgence ? Appelez-nous !</h3>
 

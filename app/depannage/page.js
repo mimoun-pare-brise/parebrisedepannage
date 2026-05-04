@@ -1,4 +1,4 @@
-// app/depannage/page.js
+
 import DepannageHero from '@/components/DepannageHero';
 import ServicesSection from "@/components/ServicesSection";
 import StepsSection from '@/components/StepsSection';
@@ -64,7 +64,6 @@ export default function DepannagePage() {
   ]}
 />
 
-
     <StepsSection
         tag="Dépanange & remorquage 24/7"
         title="Comment ça marche ?"
@@ -93,7 +92,6 @@ export default function DepannagePage() {
           },
         ]}
       />
-
 
        <ServicesSection
   title="Dépannage sur place"
@@ -124,10 +122,7 @@ export default function DepannagePage() {
 
         
 
-
-
       <PourquoiNous />
-
 
       <Presentation
             tag="Assurances partenaires"
@@ -139,7 +134,6 @@ export default function DepannagePage() {
             imageAlt="Logos de nos assurances partenaires"
             mobileImageFirst={false}
           />
-
 
     <PrendreRDV
       tag="Dépannage rapide"

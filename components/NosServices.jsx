@@ -12,7 +12,7 @@ export default function NosServices() {
       </div>
 
       <div className="services-group">
-        {/* Première rangée */}
+        
         <div className="services-container">
           <div className="service-card">
             <div className="image-container">
@@ -53,7 +53,7 @@ export default function NosServices() {
           </div>
         </div>
 
-        {/* Deuxième rangée */}
+        
         <div className="services-container">
           <div className="service-card">
             <div className="image-container">
@@ -66,7 +66,7 @@ export default function NosServices() {
             </p>
           </div>
 
-          {/* SECTION MODIFIÉE */}
+          
           <div className="service-card">
             <div className="image-container">
               <img src="/img/4.png" alt="Déflecteur / Custode" />

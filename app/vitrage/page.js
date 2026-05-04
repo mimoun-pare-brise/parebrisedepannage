@@ -1,7 +1,6 @@
 import Presentation from '@/components/Presentation';
 import BasicHeader from '@/components/basicheader';
 
-
 export const metadata = {
   title: ' Pare-Brise | Pare-Brise Dépannage France',
   description:

@@ -7,7 +7,7 @@ class AppointmentFormComponent extends HTMLElement {
 
 	connectedCallback() {
 		this.innerHTML = `
-            <!-- Auto Glass Appointment Form -->
+            
             <div class="appointment-form-overlay" id="appointmentFormOverlay">
                 <div class="appointment-form-container">
                     <div class="appointment-form-header">
@@ -17,7 +17,7 @@ class AppointmentFormComponent extends HTMLElement {
                     </div>
                     
                     <div class="appointment-form-content">
-                        <!-- Step Indicator -->
+                        
                         <div class="step-indicator">
                             <div class="step-item">
                                 <div class="step-number active" id="step1Number">1</div>
@@ -30,7 +30,7 @@ class AppointmentFormComponent extends HTMLElement {
                         </div>
 
                         <form id="appointmentForm">
-                            <!-- Step 1: Glass and Damage Selection -->
+                            
                             <div class="form-step active" id="step1">
                                 <h3>Que voyez-vous sur le vitrage concerné ?</h3>
                                 <div class="damage-visual-selection">
@@ -112,7 +112,7 @@ class AppointmentFormComponent extends HTMLElement {
                                 </div>
                             </div>
 
-                            <!-- Step 2: Personal Information -->
+                            
                             <div class="form-step" id="step2">
                                 <h3>Vos informations</h3>
                                 
@@ -152,7 +152,7 @@ class AppointmentFormComponent extends HTMLElement {
                                 </div>
                             </div>
 
-                            <!-- Navigation -->
+                            
                             <div class="form-navigation">
                                 <button type="button" class="btn btn-secondary" onclick="this.closest('appointment-form-component').closeAppointmentForm()">Fermer</button>
                                 <div style="display: flex; gap: 10px; justify-content: flex-end; flex-grow: 1;">
@@ -173,13 +173,13 @@ class AppointmentFormComponent extends HTMLElement {
 
 	addStyles() {
 		if (document.getElementById('appointment-form-styles')) {
-			return; // Styles déjà ajoutés
+			return;
 		}
 
 		const style = document.createElement('style');
 		style.id = 'appointment-form-styles';
 		style.textContent = `
-            /* Auto Glass Appointment Form Styles */
+            
             .appointment-form-overlay {
                 position: fixed;
                 top: 0;
@@ -276,7 +276,7 @@ class AppointmentFormComponent extends HTMLElement {
                 color: #34495e;
             }
 
-            /* Visual Damage Selection Styles */
+            
             .damage-visual-selection {
                 display: flex;
                 gap: 20px;
@@ -343,7 +343,7 @@ class AppointmentFormComponent extends HTMLElement {
                 font-size: 14px;
             }
 
-            /* Glass Type Selection Styles */
+            
             .glass-type-selection {
                 margin: 20px 0;
             }
@@ -584,7 +584,7 @@ class AppointmentFormComponent extends HTMLElement {
                     line-height: 1.4;
                 }
 
-                /* Mobile styles for visual damage selection */
+                
                 .damage-visual-selection {
                     flex-direction: column;
                     gap: 15px;
@@ -599,7 +599,7 @@ class AppointmentFormComponent extends HTMLElement {
                     height: 100px;
                 }
 
-                /* Mobile styles for glass type selection */
+                
                 .glass-type-row {
                     flex-direction: column;
                     gap: 10px;
@@ -672,7 +672,7 @@ class AppointmentFormComponent extends HTMLElement {
                 
                 .form-control {
                     padding: 10px;
-                    font-size: 16px; /* Prevents zoom on iOS */
+                    font-size: 16px; 
                 }
                 
                 .btn {
@@ -686,7 +686,7 @@ class AppointmentFormComponent extends HTMLElement {
                 }
             }
             
-            /* Touch improvements for mobile */
+            
             @media (hover: none) and (pointer: coarse) {
                 .glass-type-option, .damage-visual-option {
                     touch-action: manipulation;
@@ -711,11 +711,9 @@ class AppointmentFormComponent extends HTMLElement {
 		const nextBtn = this.querySelector('#nextBtn');
 		const prevBtn = this.querySelector('#prevBtn');
 
-		// Navigation du formulaire
 		nextBtn.addEventListener('click', () => this.nextStep());
 		prevBtn.addEventListener('click', () => this.previousStep());
 
-		// Sélection du type de vitrage
 		this.querySelectorAll('.glass-type-option').forEach(option => {
 			option.addEventListener('click', (e) => {
 				e.preventDefault();
@@ -729,7 +727,6 @@ class AppointmentFormComponent extends HTMLElement {
 			});
 		});
 
-		// Sélection du type de dégât
 		this.querySelectorAll('.damage-visual-option').forEach(option => {
 			option.addEventListener('click', (e) => {
 				e.preventDefault();
@@ -743,24 +740,20 @@ class AppointmentFormComponent extends HTMLElement {
 			});
 		});
 
-		// Soumission du formulaire
 		form.addEventListener('submit', (e) => this.handleSubmit(e));
 
-		// Fermer en cliquant en dehors (desktop)
 		overlay.addEventListener('click', (e) => {
 			if (e.target === overlay && window.innerWidth > 768) {
 				this.closeAppointmentForm();
 			}
 		});
 
-		// Touche Escape
 		document.addEventListener('keydown', (e) => {
 			if (e.key === 'Escape' && overlay.style.display === 'flex') {
 				this.closeAppointmentForm();
 			}
 		});
 
-		// Empêcher le zoom sur iOS
 		if (/iPad|iPhone|iPod/.test(navigator.userAgent)) {
 			const inputs = this.querySelectorAll('input, select, textarea');
 			inputs.forEach(input => {
@@ -794,13 +787,11 @@ class AppointmentFormComponent extends HTMLElement {
 	}
 
 	updateStepDisplay() {
-		// Cacher toutes les étapes
+
 		this.querySelectorAll('.form-step').forEach(step => step.classList.remove('active'));
 
-		// Afficher l'étape courante
 		this.querySelector('#step' + this.currentStep).classList.add('active');
 
-		// Mettre à jour les indicateurs
 		for (let i = 1; i <= this.totalSteps; i++) {
 			const stepNumber = this.querySelector('#step' + i + 'Number');
 			stepNumber.classList.remove('active', 'completed');
@@ -812,7 +803,6 @@ class AppointmentFormComponent extends HTMLElement {
 			}
 		}
 
-		// Boutons de navigation
 		this.querySelector('#prevBtn').style.display = this.currentStep === 1 ? 'none' : 'inline-block';
 		this.querySelector('#nextBtn').style.display = this.currentStep === this.totalSteps ? 'none' : 'inline-block';
 		this.querySelector('#submitBtn').style.display = this.currentStep === this.totalSteps ? 'inline-block' : 'none';
@@ -895,7 +885,6 @@ class AppointmentFormComponent extends HTMLElement {
 		this.sendEmailToServer(appointmentData);
 	}
 
-	// 👉 NOUVELLE MÉTHODE : envoi des données à l'API Next (/api/sendMail)
 	async sendEmailToServer(data) {
 		try {
 			const response = await fetch('/api/sendMail', {
@@ -919,10 +908,8 @@ class AppointmentFormComponent extends HTMLElement {
 	}
 }
 
-// Enregistrer le custom element
 customElements.define('appointment-form-component', AppointmentFormComponent);
 
-// Accès global pour l’ouvrir depuis la navbar
 window.openAppointmentForm = function () {
 	const formComponent = document.querySelector('appointment-form-component');
 	if (formComponent) {

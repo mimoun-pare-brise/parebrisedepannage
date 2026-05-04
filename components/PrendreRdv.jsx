@@ -5,10 +5,10 @@ export default function PrendreRDV({
   title = "Prendre rendez-vous !",
   description = "Prenez rendez-vous dès maintenant pour le remplacement de votre pare-brise. Notre intervention est rapide, écologique et sans avance de frais. Votre pare-brise est remplacé en moins d'une heure avec un vitrage certifié constructeur.",
   buttonLabel = "PRENDRE RENDEZ-VOUS",
-  buttonHref = null, // ⬅️ IMPORTANT : null = ouverture formulaire
+  buttonHref = null,
 }) {
   const handleClick = (e) => {
-    // 👉 Cas formulaire (pas de lien)
+
     if (!buttonHref) {
       e.preventDefault();
       if (typeof window !== 'undefined' && window.openAppointmentForm) {

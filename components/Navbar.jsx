@@ -31,18 +31,18 @@ export default function Navbar() {
   return (
     <header className="navbar-root">
 
-      {/* 🎨 STYLE AJOUTÉ POUR AGRANDIR LE TEXTE MOBILE + ESPACEMENT */}
+      
 
       <style>{`
-        /* Taille du texte + espacement sur mobile */
+        
         @media (max-width: 768px) {
           .btn-phone-mobile {
-            font-size: 1rem;      /* Texte plus grand */
-            gap: 10px !important;    /* Plus d'espace entre icône et numéro */
+            font-size: 1rem;      
+            gap: 10px !important;    
           }
         }
 
-        /* Sur desktop : texte légèrement plus grand mais propre */
+        
         @media (min-width: 769px) {
           .btn-phone-desktop {
             font-size: 1rem;
@@ -53,7 +53,7 @@ export default function Navbar() {
 
       <div className="navbar-container">
 
-        {/* Logo */}
+        
         <div className="navbar-logo">
           <Link href="/">
             <Image
@@ -66,7 +66,7 @@ export default function Navbar() {
           </Link>
         </div>
 
-        {/* Liens Desktop */}
+        
         <nav className="navbar-links">
           <Link href="/">PARE-BRISE</Link>
           <Link href="/depannage">REMORQUAGE</Link>
@@ -74,7 +74,7 @@ export default function Navbar() {
           <Link href="/contacteznous">NOUS CONTACTER</Link>
         </nav>
 
-        {/* Bouton RDV Desktop */}
+        
         <div className="navbar-btn-desktop">
           <a 
             href="#" 
@@ -92,7 +92,7 @@ export default function Navbar() {
           </a>
         </div>
 
-        {/* 📱 Mobile */}
+        
         <div className="navbar-mobile-btns">
 
           <a 
@@ -110,13 +110,13 @@ export default function Navbar() {
             )}
           </a>
 
-          {/* Icône téléphone */}
+          
           <a className="navbar-mobile-icon" href="tel:0753350012">
             <i className="fa-solid fa-phone"></i>
           </a>
         </div>
 
-        {/* Burger Menu */}
+        
         <button 
           type="button" 
           className={`navbar-burger uicore-toggle uicore-ham ${menuOpen ? 'is-active' : ''}`} 
@@ -131,7 +131,7 @@ export default function Navbar() {
         </button>
       </div>
 
-      {/* 📱 Menu Mobile */}
+      
       <div className={`mobile-menu-overlay ${menuOpen ? 'open' : ''}`}>
         <div className="mobile-menu-content">
 

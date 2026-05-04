@@ -27,7 +27,7 @@ export default function ConfidentialitePage() {
           Règlement Général sur la Protection des Données (RGPD).
         </p>
 
-        {/* Section 1 */}
+        
         <h2 className="text-xl sm:text-2xl font-semibold mt-8 mb-3 border-l-4 border-[#9333EA] pl-3">
           1. Données collectées
         </h2>
@@ -41,7 +41,7 @@ export default function ConfidentialitePage() {
           <li>Données techniques (adresse IP, navigateur, pages consultées)</li>
         </ul>
 
-        {/* Section 2 */}
+        
         <h2 className="text-xl sm:text-2xl font-semibold mt-8 mb-3 border-l-4 border-[#9333EA] pl-3">
           2. Finalités du traitement
         </h2>
@@ -54,7 +54,7 @@ export default function ConfidentialitePage() {
           <li>Assurer la sécurité et le bon fonctionnement du site</li>
         </ul>
 
-        {/* Section 3 */}
+        
         <h2 className="text-xl sm:text-2xl font-semibold mt-8 mb-3 border-l-4 border-[#9333EA] pl-3">
           3. Base légale du traitement
         </h2>
@@ -67,7 +67,7 @@ export default function ConfidentialitePage() {
           <li>L’intérêt légitime à assurer la bonne gestion de notre activité</li>
         </ul>
 
-        {/* Section 4 */}
+        
         <h2 className="text-xl sm:text-2xl font-semibold mt-8 mb-3 border-l-4 border-[#9333EA] pl-3">
           4. Destinataires des données
         </h2>
@@ -77,7 +77,7 @@ export default function ConfidentialitePage() {
           des services (techniciens, dépanneurs).
         </p>
 
-        {/* Section 5 */}
+        
         <h2 className="text-xl sm:text-2xl font-semibold mt-8 mb-3 border-l-4 border-[#9333EA] pl-3">
           5. Durée de conservation
         </h2>
@@ -87,7 +87,7 @@ export default function ConfidentialitePage() {
           <span className="font-semibold">3 ans</span> (obligations légales ou suivi client).
         </p>
 
-        {/* Section 6 */}
+        
         <h2 className="text-xl sm:text-2xl font-semibold mt-8 mb-3 border-l-4 border-[#9333EA] pl-3">
           6. Droits de l’utilisateur
         </h2>
@@ -106,7 +106,7 @@ export default function ConfidentialitePage() {
           </a>
         </p>
 
-        {/* Section 7 */}
+        
         <h2 className="text-xl sm:text-2xl font-semibold mt-8 mb-3 border-l-4 border-[#9333EA] pl-3">
           7. Sécurité des données
         </h2>
@@ -115,7 +115,7 @@ export default function ConfidentialitePage() {
           protéger vos données contre la perte, l’accès non autorisé ou la divulgation.
         </p>
 
-        {/* Section 8 */}
+        
         <h2 className="text-xl sm:text-2xl font-semibold mt-8 mb-3 border-l-4 border-[#9333EA] pl-3">
           8. Cookies
         </h2>
@@ -125,7 +125,7 @@ export default function ConfidentialitePage() {
           navigateur.
         </p>
 
-        {/* Section 9 */}
+        
         <h2 className="text-xl sm:text-2xl font-semibold mt-8 mb-3 border-l-4 border-[#9333EA] pl-3">
           9. Modification de la politique
         </h2>
@@ -135,7 +135,7 @@ export default function ConfidentialitePage() {
           de votre visite.
         </p>
 
-        {/* Section 10 */}
+        
         <h2 className="text-xl sm:text-2xl font-semibold mt-8 mb-3 border-l-4 border-[#9333EA] pl-3">
           10. Contact
         </h2>

@@ -7,7 +7,7 @@ export default function PourquoiNous() {
 
       <div className="depannage-usp-grid">
 
-        {/* Carte 1 : Intervention ultra-rapide */}
+        
         <div className="depannage-usp-card">
           <div className="depannage-usp-header">
             <span className="depannage-usp-icon">&#10003;</span>
@@ -16,7 +16,7 @@ export default function PourquoiNous() {
           <p>Moins de 30 minutes en moyenne</p>
         </div>
 
-        {/* Carte 2 : Prix transparents */}
+        
         <div className="depannage-usp-card">
           <div className="depannage-usp-header">
             <span className="depannage-usp-icon">&#10003;</span>
@@ -25,7 +25,7 @@ export default function PourquoiNous() {
           <p>Devis clair avant intervention</p>
         </div>
 
-        {/* Carte 3 : Professionnels certifiés */}
+        
         <div className="depannage-usp-card">
           <div className="depannage-usp-header">
             <span className="depannage-usp-icon">&#10003;</span>
@@ -34,7 +34,7 @@ export default function PourquoiNous() {
           <p>Équipe expérimentée et formée</p>
         </div>
 
-        {/* Carte 4 : Matériel moderne */}
+        
         <div className="depannage-usp-card">
           <div className="depannage-usp-header">
             <span className="depannage-usp-icon">&#10003;</span>
@@ -43,7 +43,7 @@ export default function PourquoiNous() {
           <p>Dépanneuses équipées et entretenues</p>
         </div>
 
-        {/* Carte 5 : Tous véhicules */}
+        
         <div className="depannage-usp-card">
           <div className="depannage-usp-header">
             <span className="depannage-usp-icon">&#10003;</span>
@@ -52,7 +52,7 @@ export default function PourquoiNous() {
           <p>Voiture, moto, utilitaire, 4x4</p>
         </div>
 
-        {/* Carte 6 : Paiement facilité */}
+        
         <div className="depannage-usp-card">
           <div className="depannage-usp-header">
             <span className="depannage-usp-icon">&#10003;</span>

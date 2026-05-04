@@ -2,7 +2,6 @@
 
 import React, { useState } from 'react';
 
-// Données de la FAQ intégrées directement
 const faqData = [
   {
     question: 'Combien vais-je toucher pour mon pare-brise cassé ?',
@@ -37,19 +36,18 @@ const faqData = [
 ];
 
 export default function Faq() {
-  // État pour gérer la question actuellement ouverte
-  // Laisse la deuxième question ouverte par défaut ('q2'), comme sur l'image.
+
   const [openId, setOpenId] = useState('q2');
 
   const toggleItem = (id) => {
-    // Ferme si déjà ouvert, sinon ouvre le nouvel élément
+
     setOpenId(prevId => prevId === id ? null : id);
   };
 
   return (
     <section className="faq-section" id="Faq">
       
-      {/* 1. Entête de la section FAQ */}
+      
       <div className="service-header">
         <div className="tag">Vos questions fréquentes</div>
         <h2 className="sectiontitle">Questions fréquentes</h2>
@@ -58,16 +56,16 @@ export default function Faq() {
         </p>
       </div>
 
-      {/* 2. Conteneur de l'accordéon */}
+      
       <div className="faq-container">
         {faqData.map((item) => {
           const isOpen = item.id === openId;
-          const Icon = isOpen ? '-' : '+'; // Change l'icône
+          const Icon = isOpen ? '-' : '+';
           
           return (
             <div key={item.id} className={`faq-item ${isOpen ? 'open' : ''}`}>
               
-              {/* Tête de la question (cliquable) */}
+              
               <div 
                 className="faq-header" 
                 onClick={() => toggleItem(item.id)}
@@ -80,12 +78,12 @@ export default function Faq() {
                 </div>
               </div>
 
-              {/* Corps de la réponse (avec animation) */}
+              
               <div 
                 className={`faq-answer-wrapper ${isOpen ? 'open' : ''}`}
                 style={{ 
-                    maxHeight: isOpen ? '200px' : '0', // Ajuster '200px' si les réponses sont plus longues
-                    // Assurez-vous que l'animation est gérée dans le CSS
+                    maxHeight: isOpen ? '200px' : '0',
+
                 }} 
               >
                 <p className="faq-answer">{item.answer}</p>

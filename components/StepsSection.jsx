@@ -1,4 +1,4 @@
-// components/StepsSection.jsx
+
 
 export default function StepsSection({ tag, title, intro, steps }) {
   return (

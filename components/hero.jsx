@@ -1,7 +1,6 @@
 'use client';
 import Image from 'next/image';
 
-
 export default function Hero() {
   const handleClick = () => {
     if (typeof window !== 'undefined' && window.openAppointmentForm) {
@@ -10,8 +9,6 @@ export default function Hero() {
       console.warn('openAppointmentForm n’est pas défini sur window');
     }
   };
-
-
 
   return (
     <section className="hero-section">
@@ -45,9 +42,6 @@ export default function Hero() {
   </span>
 </h1>
 
-
-
-
             <p>
               Remplacez votre pare-brise en toute simplicité : intervention en 1 heure,
               prise en charge sans avance de frais et installation d’un vitrage certifié.
@@ -60,7 +54,7 @@ export default function Hero() {
               </button>
             </div>
              
-            {/* --- Reste du contenu inchangé... --- */}
+            
             <div className="insurance-section">
               <p className="collaboration-text">
                 Nous collaborons avec la plupart des grandes compagnies d’assurance :

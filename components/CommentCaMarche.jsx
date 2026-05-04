@@ -13,7 +13,7 @@ export default function CommentCaMarche() {
 
       <div className="steps-container">
         
-        {/* Étape 1 */}
+        
         <div className="step-card">
           <div className="step-image-container">
             <img
@@ -31,7 +31,7 @@ export default function CommentCaMarche() {
           </p>
         </div>
 
-        {/* Étape 2 */}
+        
         <div className="step-card">
           <div className="step-image-container">
             <img
@@ -49,7 +49,7 @@ export default function CommentCaMarche() {
           </p>
         </div>
 
-        {/* Étape 3 */}
+        
         <div className="step-card">
           <div className="step-image-container">
             <img

@@ -15,7 +15,7 @@ export default function PresentationSection({
   mobileImageFirst = false,
 }) {
   const handleClick = (e) => {
-    // 👉 Cas formulaire (pas de lien)
+
     if (!buttonHref) {
       e.preventDefault();
       if (typeof window !== 'undefined' && window.openAppointmentForm) {
@@ -32,7 +32,7 @@ export default function PresentationSection({
           mobileImageFirst ? 'mobile-image-first' : 'mobile-text-first'
         }`}
       >
-        {/* Image */}
+        
         <div className="presentation-image-container">
           <Image
             src={imageSrc}
@@ -43,7 +43,7 @@ export default function PresentationSection({
           />
         </div>
 
-        {/* Contenu texte */}
+        
         <div className="presentation-content">
           {tag && <div className="tag">{tag}</div>}
 

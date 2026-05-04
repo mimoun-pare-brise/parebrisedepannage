@@ -40,18 +40,18 @@ export default function ServicesSection({
         ))}
       </div>
 
-      {/* 🔥 Mobile uniquement */}
+      
       <style jsx>{`
         @media (max-width: 768px) {
           .services-grid {
-            grid-template-columns: 1fr !important; /* une seule colonne */
-            justify-items: center !important;     /* centre la carte horizontalement */
-            align-items: center !important;       /* centre verticalement */
+            grid-template-columns: 1fr !important; 
+            justify-items: center !important;     
+            align-items: center !important;       
           }
 
           .service-card {
             width: 100%;
-            max-width: 330px; /* évite que ce soit trop large */
+            max-width: 330px; 
           }
         }
       `}</style>

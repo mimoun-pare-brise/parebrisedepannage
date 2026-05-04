@@ -1,4 +1,4 @@
-// components/Presentation.jsx
+
 
 import React from 'react';
 import Image from 'next/image';
@@ -8,10 +8,10 @@ export default function DepannagePresentation() {
     <section className="presentation-section">
       <div className="presentation-container">
         
-        {/* Partie Gauche : Image */}
+        
         <div className="presentation-image-container">
           <Image
-            src="/img/presentationdepannage.jpg" // Remplacez par le chemin réel de votre image
+            src="/img/presentationdepannage.jpg"
             alt="Intérieur d'un centre de franchisé avec voiture et éclairage moderne"
             width={500}
             height={400}
@@ -19,7 +19,7 @@ export default function DepannagePresentation() {
           />
         </div>
         
-        {/* Partie Droite : Contenu Textuel */}
+        
         <div className="presentation-content">
           
          
