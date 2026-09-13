@@ -3,7 +3,7 @@ import BasicHeader from '@/components/basicheader';
 export const metadata = {
   title: 'Conditions générales d’utilisation',
   description:
-    'Conditions d’utilisation du site PareBrise Dépannage France : accès, services, responsabilité, données personnelles et cadre légal.',
+    'Conditions d’utilisation du site Pare-Brise Dépann : accès, services, responsabilité, données personnelles et cadre légal.',
 };
 
 const PAGE_DESCRIPTION = metadata.description;
@@ -22,8 +22,8 @@ export default function CGUPage() {
 
         <p className="mb-4">
           Les présentes Conditions Générales d’Utilisation (ci-après « CGU ») encadrent l’accès
-          et l’utilisation du site <span className="font-semibold">PareBrise Dépannage France</span>,
-          accessible à l’adresse <span className="font-semibold">parebrise-depannage-france.fr</span>{' '}
+          et l’utilisation du site <span className="font-semibold">Pare-brise Dépann </span>,
+          accessible à l’adresse <span className="font-semibold">parebrisedepannagefrance.fr</span>{' '}
           (ci-après « le Site »). En naviguant sur le Site, l’utilisateur reconnaît avoir lu et accepté
           les présentes CGU.
         </p>
@@ -45,7 +45,7 @@ export default function CGUPage() {
         <p className="mb-4">
           Le Site est accessible gratuitement à tout utilisateur disposant d’un accès à Internet.
           Les frais liés à la connexion et au matériel restent à la charge de l’utilisateur.
-          PareBrise Dépannage France peut suspendre ou interrompre l’accès au Site, notamment
+          Pare-Brise Dépann peut suspendre ou interrompre l’accès au Site, notamment
           pour des raisons de maintenance ou de mise à jour, sans préavis.
         </p>
 
@@ -68,9 +68,9 @@ export default function CGUPage() {
           4. Responsabilité
         </h2>
         <p className="mb-4">
-          PareBrise Dépannage France met tout en œuvre pour fournir des informations fiables et à jour,
+          Pare-Brise Dépann  met tout en œuvre pour fournir des informations fiables et à jour,
           mais ne peut garantir l’absence totale d’erreurs ou d’omissions. La responsabilité de
-          PareBrise Dépannage France ne saurait être engagée :
+          Pare-brise Dépann ne saurait être engagée :
         </p>
         <ul className="list-disc list-inside mb-4 space-y-1">
           <li>en cas d’interruption, de dysfonctionnement ou d’indisponibilité temporaire du Site ;</li>
@@ -107,8 +107,8 @@ export default function CGUPage() {
           7. Liens externes
         </h2>
         <p className="mb-4">
-          Le Site peut contenir des liens redirigeant vers des sites tiers. PareBrise Dépannage
-          France n’exerce aucun contrôle sur ces sites et ne saurait être tenue responsable de
+          Le Site peut contenir des liens redirigeant vers des sites tiers. Pare-Brise Dépann
+           n’exerce aucun contrôle sur ces sites et ne saurait être tenue responsable de
           leur contenu, de leur disponibilité ou de tout dommage résultant de leur utilisation.
         </p>
 
@@ -116,7 +116,7 @@ export default function CGUPage() {
           8. Modification des CGU
         </h2>
         <p className="mb-4">
-          PareBrise Dépannage France se réserve le droit de modifier à tout moment les présentes
+          Pare-Brise Dépann se réserve le droit de modifier à tout moment les présentes
           CGU, afin de les adapter aux évolutions du Site, aux changements législatifs ou à la
           mise en place de nouveaux services. La version applicable est celle en vigueur au moment
           de la navigation sur le Site.
@@ -138,21 +138,21 @@ export default function CGUPage() {
           Pour toute question relative au Site ou aux présentes CGU, l’utilisateur peut contacter :
         </p>
         <p className="mb-1">
-          Téléphone : <span className="font-semibold">07 53 35 00 12</span>
+          Téléphone : <span className="font-semibold">07 51 28 04 81</span>
         </p>
         <p className="mb-1">
           Email :{' '}
           <a
-            href="mailto:parebrisedepannagefrance@gmail.com"
+            href="mailto:parebrisedepann@gmail.com"
             className="font-semibold text-[#9333EA] hover:underline"
           >
-            parebrisedepannagefrance@gmail.com
+            parebrisedepann@gmail.com
           </a>
         </p>
         <p className="mb-4">
           Adresse :{' '}
           <span className="font-semibold">
-            30 boulevard de la Résistance, 95100 Argenteuil, France
+            47 rue vivienne, 75002 Paris, France
           </span>
         </p>
       </section>
