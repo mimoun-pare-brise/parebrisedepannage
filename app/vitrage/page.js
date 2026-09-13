@@ -2,7 +2,7 @@ import Presentation from '@/components/Presentation';
 import BasicHeader from '@/components/basicheader';
 
 export const metadata = {
-  title: ' Pare-Brise | Pare-Brise Dépannage France',
+  title: ' Pare-Brise | Pare-Brise Dépann',
   description:
     'Service de remorquage et dépannage auto rapide : panne, batterie, crevaison, erreur de carburant, véhicule immobilisé.',
 };
@@ -22,7 +22,7 @@ export default function ParebrisePage() {
           <Presentation
               tag="Assurances partenaires"
               title="Changement de parebrise"
-              description="Un imprévu sur la route ? On intervient sans attendre ! Ne laissez pas une panne gâcher votre journée. Avec Pare-Brise & Dépannage France, bénéficiez d’une assistance immédiate, efficace et à prix ultra-compétitifs."
+              description="Un imprévu sur la route ? On intervient sans attendre ! Ne laissez pas une panne gâcher votre journée. Avec Pare-Brise Dépann, bénéficiez d’une assistance immédiate, efficace et à prix ultra-compétitifs."
               buttonLabel=""
               buttonHref="/pr"
               imageSrc="/img/1.png"
@@ -34,7 +34,7 @@ export default function ParebrisePage() {
               <Presentation
               tag="Assurances partenaires"
               title="Changement de parebrise"
-              description="Un imprévu sur la route ? On intervient sans attendre ! Ne laissez pas une panne gâcher votre journée. Avec Pare-Brise & Dépannage France, bénéficiez d’une assistance immédiate, efficace et à prix ultra-compétitifs."
+              description="Un imprévu sur la route ? On intervient sans attendre ! Ne laissez pas une panne gâcher votre journée. Avec Pare-Brise Dépann, bénéficiez d’une assistance immédiate, efficace et à prix ultra-compétitifs."
               buttonLabel=""
               buttonHref="/pr"
               imageSrc="/img/1.png"
@@ -46,7 +46,7 @@ export default function ParebrisePage() {
               <Presentation
               tag="Assurances partenaires"
               title="Changement de parebrise"
-              description="Un imprévu sur la route ? On intervient sans attendre ! Ne laissez pas une panne gâcher votre journée. Avec Pare-Brise & Dépannage France, bénéficiez d’une assistance immédiate, efficace et à prix ultra-compétitifs."
+              description="Un imprévu sur la route ? On intervient sans attendre ! Ne laissez pas une panne gâcher votre journée. Avec Pare-Brise Dépann, bénéficiez d’une assistance immédiate, efficace et à prix ultra-compétitifs."
               buttonLabel=""
               buttonHref="/pr"
               imageSrc="/img/1.png"
