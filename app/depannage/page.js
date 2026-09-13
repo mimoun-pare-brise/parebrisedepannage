@@ -129,7 +129,7 @@ export default function DepannagePage() {
             title="Nos assurances partenaires"
             description="Nous travaillons avec la majorité des compagnies d’assurance afin de vous garantir une prise en charge simple, rapide et totalement transparente. Peu importe votre assureur, nous facilitons les démarches pour un remplacement de pare-brise sans stress."
             buttonLabel="Prendre RDV"
-            buttonHref="tel:0753350012"
+            buttonHref="tel:0751280481"
             imageSrc="/img/assurance.jpeg"
             imageAlt="Logos de nos assurances partenaires"
             mobileImageFirst={false}
@@ -140,7 +140,7 @@ export default function DepannagePage() {
       title="Besoin d'un remorquage ?"
       description="Notre équipe intervient 24/7 pour dépanner et remorquer votre véhicule partout en Île-de-France. Intervention immédiate et devis par téléphone."
       buttonLabel="APPELER NOUS ! "
-      buttonHref="tel:0753350012"
+      buttonHref="tel:0751280481"
     />
 
             <FaqDepannage />
