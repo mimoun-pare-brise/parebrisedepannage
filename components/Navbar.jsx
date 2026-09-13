@@ -111,7 +111,7 @@ export default function Navbar() {
           </a>
 
           
-          <a className="navbar-mobile-icon" href="tel:0753350012">
+          <a className="navbar-mobile-icon" href="tel:0751280481">
             <i className="fa-solid fa-phone"></i>
           </a>
         </div>
