@@ -29,7 +29,7 @@ export default function DepannagePresentation() {
           </h2>
           
           <p className="presentation-description">
-        Un imprévu sur la route ? On intervient sans attendre ! Ne laissez pas une panne gâcher votre journée. Avec Pare-Brise & Dépannage France, bénéficiez d’une assistance immédiate, efficace et à prix ultra-compétitifs.          </p>
+        Un imprévu sur la route ? On intervient sans attendre ! Ne laissez pas une panne gâcher votre journée. Avec Pare-Brise Dépann, bénéficiez d’une assistance immédiate, efficace et à prix ultra-compétitifs.          </p>
           
           <a href="#" className="btn-rdv">
         En savoir +
