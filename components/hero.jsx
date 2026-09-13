@@ -15,9 +15,16 @@ export default function Hero() {
       <div className="hero-container">
         <div className="content-wrapper">
           <div className="content">
-            <div className="promo-tag">
-              Pare-brise remplacé = Franchise Offerte
-            </div>
+  <a
+    href="tel:0751280481"
+    className="phone-number-button"
+  >
+    📞 07 51 28 04 81
+  </a>
+
+  <div className="promo-tag">
+    Pare-brise remplacé = Franchise Offerte
+  </div>
 
   <h1 className="relative inline-block leading-tight">
   Installation pare-brise avec reprise jusqu’à{' '}
