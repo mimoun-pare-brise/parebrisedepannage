@@ -2,7 +2,7 @@ import BasicHeader from '@/components/basicheader';
 import Faq from '@/components/Faq';
 
 export const metadata = {
-  title: ' Pare-Brise | Pare-Brise Dépannage France',
+  title: ' Pare-Brise | Pare-Brise Dépann',
   description:
     'Service de remorquage et dépannage auto rapide : panne, batterie, crevaison, erreur de carburant, véhicule immobilisé.',
 };
