@@ -3,7 +3,7 @@ import BasicHeader from '@/components/basicheader';
 export const metadata = {
   title: 'Politique de confidentialité',
   description:
-    'Politique de confidentialité du site PareBrise Dépannage France : gestion des données personnelles, droits RGPD et règles de protection des informations.',
+    'Politique de confidentialité du site Pare-Brise Dépann : gestion des données personnelles, droits RGPD et règles de protection des informations.',
 };
 
 const PAGE_DESCRIPTION = metadata.description;
@@ -130,7 +130,7 @@ export default function ConfidentialitePage() {
           9. Modification de la politique
         </h2>
         <p className="mb-4">
-          PareBrise Dépann se réserve le droit de modifier à tout moment la présente
+          Pare-Brise Dépann se réserve le droit de modifier à tout moment la présente
           Politique de confidentialité. La version applicable est celle affichée sur le Site lors
           de votre visite.
         </p>
