@@ -1995,3 +1995,36 @@ background-color: #ffffff;
   font-size: 3rem; font-weight: bold; transition: 300ms;
 }
 .close:hover, .close:focus { color: #bbb; text-decoration: none; }
+.phone-number-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  margin-bottom: 14px;
+  padding: 12px 22px;
+  background: linear-gradient(135deg, #8b2be2, #a832e8);
+  color: #fff;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 700;
+  border-radius: 30px;
+  box-shadow: 0 5px 15px rgba(139, 43, 226, 0.35);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.phone-number-button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 7px 20px rgba(139, 43, 226, 0.45);
+}
+
+.phone-number-button:active {
+  transform: scale(0.97);
+}
+
+@media (max-width: 600px) {
+  .phone-number-button {
+    font-size: 18px;
+    padding: 10px 18px;
+    margin-bottom: 12px;
+  }
+}
