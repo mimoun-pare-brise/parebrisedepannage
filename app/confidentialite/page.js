@@ -21,9 +21,9 @@ export default function ConfidentialitePage() {
 
         <p className="mb-4">
           La présente Politique de confidentialité explique comment{' '}
-          <span className="font-semibold">PareBrise Dépannage France</span> collecte, utilise,
+          <span className="font-semibold">Pare-Brise Dépann</span> collecte, utilise,
           protège et traite vos données personnelles lorsque vous utilisez le site{' '}
-          <span className="font-semibold">parebrise-depannage-france.fr</span>, conformément au
+          <span className="font-semibold">parebrisedepannagefrance.fr</span>, conformément au
           Règlement Général sur la Protection des Données (RGPD).
         </p>
 
@@ -72,7 +72,7 @@ export default function ConfidentialitePage() {
           4. Destinataires des données
         </h2>
         <p className="mb-4">
-          Les données collectées sont exclusivement destinées à PareBrise Dépannage France.
+          Les données collectées sont exclusivement destinées à Pare-Brise Dépann.
           Elles peuvent être transmises uniquement aux prestataires nécessaires à la réalisation
           des services (techniciens, dépanneurs).
         </p>
@@ -101,8 +101,8 @@ export default function ConfidentialitePage() {
         </ul>
         <p className="mb-4">
           Pour exercer vos droits, contactez-nous à :{' '}
-          <a href="mailto:parebrisedepannagefrance@gmail.com" className="font-semibold text-[#9333EA] hover:underline">
-            parebrisedepannagefrance@gmail.com
+          <a href="mailto:parebrisedepann@gmail.com" className="font-semibold text-[#9333EA] hover:underline">
+            parebrisedepann@gmail.com
           </a>
         </p>
 
@@ -130,7 +130,7 @@ export default function ConfidentialitePage() {
           9. Modification de la politique
         </h2>
         <p className="mb-4">
-          PareBrise Dépannage France se réserve le droit de modifier à tout moment la présente
+          PareBrise Dépann se réserve le droit de modifier à tout moment la présente
           Politique de confidentialité. La version applicable est celle affichée sur le Site lors
           de votre visite.
         </p>
@@ -141,12 +141,12 @@ export default function ConfidentialitePage() {
         </h2>
         <p className="mb-2">Pour toute question relative à vos données :</p>
 
-        <p>Téléphone : <span className="font-semibold">07 53 35 00 12</span></p>
-        <p>Email : <a href="mailto:parebrisedepannagefrance@gmail.com" className="font-semibold text-[#9333EA] hover:underline">parebrisedepannagefrance@gmail.com</a></p>
+        <p>Téléphone : <span className="font-semibold">07 51 28 04 81</span></p>
+        <p>Email : <a href="mailto:parebrisedepann@gmail.com" className="font-semibold text-[#9333EA] hover:underline">parebrisedepann@gmail.com</a></p>
         <p className="mb-4">
           Adresse :{' '}
           <span className="font-semibold">
-            30 boulevard de la Résistance, 95100 Argenteuil, France
+            47 rue vivienne, 75002 Paris, France
           </span>
         </p>
       </section>
