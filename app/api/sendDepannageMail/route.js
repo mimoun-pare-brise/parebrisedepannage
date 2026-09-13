@@ -20,7 +20,7 @@ export async function POST(req) {
     }
 
     await resend.emails.send({
-      from: "Pare-Brise Dépannage <contact@parebrisedepannagefrance.com>",
+      from: "Pare-Brise Dépannage <parebrisedepann@gmail.com>",
       to: process.env.EMAIL_TO,
       subject: "🚨 Nouvelle demande de dépannage urgent",
       html: `
