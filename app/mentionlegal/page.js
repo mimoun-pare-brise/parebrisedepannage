@@ -32,19 +32,19 @@ export default function MentionsLegalesPage() {
         </h2>
         <p className="mb-2">
           Le présent site, accessible à l’URL{' '}
-          <span className="font-semibold">parebrise-depannage-france.fr</span> (le « Site »),
+          <span className="font-semibold">parebrisedepannagefrance.fr</span> (le « Site »),
           est édité par :
         </p>
         <p className="mb-4">
-          <span className="font-semibold">PAREBRISE DÉPANNAGE FRANCE</span>, entreprise
+          <span className="font-semibold">PAREBRISE DÉPANN</span>, entreprise
           individuelle, immatriculée sous le numéro{' '}
-          <span className="font-semibold">SIRET 98976150700015</span>, dont le siège social
+          <span className="font-semibold">SIRET 10833036600015</span>, dont le siège social
           est situé : <br />
           <span className="font-semibold">
-            30 boulevard de la Résistance, 95100 Argenteuil, France
+            47 rue vivienne, 75002 Paris, France
           </span>
           . <br />
-          Téléphone : <span className="font-semibold">07 53 35 00 12</span>
+          Téléphone : <span className="font-semibold">07 51 28 04 81</span>
         </p>
 
         <h2 className="text-xl sm:text-2xl font-semibold mt-8 mb-3 border-l-4 border-[#9333EA] pl-3">
@@ -62,26 +62,26 @@ export default function MentionsLegalesPage() {
         </h2>
         <p className="mb-4">
           Le Directeur de la publication du Site est : <br />
-          <span className="font-semibold">Hassan GOUADJELIA</span> <br />
-          SIRET : <span className="font-semibold">98976150700015</span>
+          <span className="font-semibold">Gamal Tabet</span> <br />
+          SIRET : <span className="font-semibold">10833036600015</span>
         </p>
 
         <h2 className="text-xl sm:text-2xl font-semibold mt-8 mb-3 border-l-4 border-[#9333EA] pl-3">
           Nous contacter
         </h2>
         <p className="mb-4">
-          Par téléphone : <span className="font-semibold">07 53 35 00 12</span> <br />
+          Par téléphone : <span className="font-semibold">07 51 28 04 81</span> <br />
           Par email :{' '}
           <a
-            href="mailto:parebrisedepannagefrance@gmail.com"
+            href="mailto:parebrisedepann@gmail.com"
             className="font-semibold text-[#9333EA] hover:underline"
           >
-            parebrisedepannagefrance@gmail.com
+            parebrisedepann@gmail.com
           </a>
           <br />
           Par courrier : <br />
           <span className="font-semibold">
-            30 boulevard de la Résistance, 95100 Argenteuil, France
+            47 rue vivienne, 75002 Paris, France
           </span>
         </p>
 
