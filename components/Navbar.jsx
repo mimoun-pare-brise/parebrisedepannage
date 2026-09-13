@@ -15,7 +15,7 @@ export default function Navbar() {
     e.preventDefault();
 
     if (pathname === "/depannage") {
-      window.location.href = "tel:0753350012";
+      window.location.href = "tel:0751280481";
       return;
     }
 
@@ -84,7 +84,7 @@ export default function Navbar() {
             {pathname === "/depannage" ? (
               <>
                 <i className="fa-solid fa-phone"></i>
-                07 53 35 00 12
+                07 51 28 04 81
               </>
             ) : (
               "PRENEZ RENDEZ-VOUS"
@@ -103,7 +103,7 @@ export default function Navbar() {
             {pathname === "/depannage" ? (
               <>
                 <i className="fa-solid fa-phone"></i>
-                07 53 35 00 12
+                07 51 28 04 81
               </>
             ) : (
               "PRENEZ RENDEZ-VOUS"
@@ -150,7 +150,7 @@ export default function Navbar() {
             {pathname === "/depannage" ? (
               <>
                 <i className="fa-solid fa-phone"></i>
-                07 53 35 00 12
+                07 51 28 04 81
               </>
             ) : (
               "PRENDRE RENDEZ-VOUS"
