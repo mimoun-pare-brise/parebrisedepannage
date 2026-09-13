@@ -1,6 +1,7 @@
 
 import Hero from '@/components/hero';
 import NosServices from '@/components/NosServices';
+import FloatingCTAButton from '@/components/FloatingCTAButton';
 import CommentCaMarche from '@/components/CommentCaMarche';
 import PrendreRdv from '@/components/PrendreRdv';
 import Faq from '@/components/Faq';
@@ -10,6 +11,7 @@ export default function Home() {
   return (
     <>
       <Hero />
+     <FloatingCTAButton />
       <NosServices />
       <Presentation
   tag="Franchise Offerte"
