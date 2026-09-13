@@ -10,8 +10,8 @@ const poppins = Poppins({
 });
 
 export const metadata = {
-  title: 'Dépannage Pare-Brise France',
-  description: 'Dépannage Pare-Brise France',
+  title: 'Dépannage Pare-Brise ',
+  description: 'Dépannage Pare-Brise ',
 };
 
 export default function RootLayout({ children }) {
