@@ -6,7 +6,7 @@ import React from 'react';
 const FloatingCTAButton = () => {
 
   const handleCall = () => {
-    window.location.href = 'tel:0753350012';
+    window.location.href = 'tel:0751280481';
   };
 
   return (
