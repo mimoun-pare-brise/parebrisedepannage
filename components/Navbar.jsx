@@ -136,8 +136,8 @@ export default function Navbar() {
         <div className="mobile-menu-content">
 
           <nav className="mobile-menu-links">
-            <Link href="/" onClick={toggleMenu}>PARE-BRISE</Link>
-            <Link href="/depannage" onClick={toggleMenu}>REMORQUAGE</Link>
+            <Link href="/" onClick={toggleMenu}>VITRAGE AUTOMOBILE</Link>
+            <Link href="/depannage" onClick={toggleMenu}>DÉPANNAGE/REMORQUAGE</Link>
             <Link href="/FAQ" onClick={toggleMenu}>F.A.Q</Link>
             <Link href="/contacteznous" onClick={toggleMenu}>NOUS CONTACTER</Link>
           </nav>
