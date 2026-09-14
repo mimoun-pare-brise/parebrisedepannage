@@ -68,8 +68,8 @@ export default function Navbar() {
 
         
         <nav className="navbar-links">
-          <Link href="/">PARE-BRISE</Link>
-          <Link href="/depannage">REMORQUAGE</Link>
+          <Link href="/">VITRAGE AUTOMOBILE</Link>
+          <Link href="/depannage">DÉPANNAGE/REMORQUAGE</Link>
           <Link href="/FAQ" scroll={true}>F.A.Q</Link>
           <Link href="/contacteznous">NOUS CONTACTER</Link>
         </nav>
