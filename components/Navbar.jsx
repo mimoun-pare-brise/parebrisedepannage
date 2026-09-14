@@ -69,7 +69,7 @@ export default function Navbar() {
         
         <nav className="navbar-links">
           <Link href="/">VITRAGE AUTOMOBILE</Link>
-          <Link href="/depannage">DÉPANNAGE/REMORQUAGE</Link>
+          <Link href="/depannage">DÉPANNAGE / REMORQUAGE</Link>
           <Link href="/FAQ" scroll={true}>F.A.Q</Link>
           <Link href="/contacteznous">NOUS CONTACTER</Link>
         </nav>
@@ -137,7 +137,7 @@ export default function Navbar() {
 
           <nav className="mobile-menu-links">
             <Link href="/" onClick={toggleMenu}>VITRAGE AUTOMOBILE</Link>
-            <Link href="/depannage" onClick={toggleMenu}>DÉPANNAGE/REMORQUAGE</Link>
+            <Link href="/depannage" onClick={toggleMenu}>DÉPANNAGE / REMORQUAGE</Link>
             <Link href="/FAQ" onClick={toggleMenu}>F.A.Q</Link>
             <Link href="/contacteznous" onClick={toggleMenu}>NOUS CONTACTER</Link>
           </nav>
