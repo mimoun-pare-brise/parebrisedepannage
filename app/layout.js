@@ -34,11 +34,16 @@ export default function RootLayout({ children }) {
   `}
 </Script>
   
-  <script>
-  gtag('config', 'AW-18441898443/-xM0CLGt7_gcEMuT5NlE', {
+<Script
+  id="google-ads-conversion"
+  strategy="afterInteractive"
+>
+{`
+  gtag('config', 'AW-18441898443', {
     'phone_conversion_number': '0751280481'
   });
-</script>
+`}
+</Script>
   
         <link 
           rel="stylesheet" 
