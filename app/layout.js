@@ -25,21 +25,20 @@ export default function RootLayout({ children }) {
 />
 
 <Script id="google-ads-tag" strategy="afterInteractive">
-  {`
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
+{`
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
 
-    gtag('config', 'AW-18441898443');
-  `}
+  gtag('config', 'AW-18441898443');
+`}
 </Script>
-  
 <Script
   id="google-ads-conversion"
   strategy="afterInteractive"
 >
 {`
-  gtag('config', 'AW-18441898443', {
+  gtag('config', 'AW-18441898443/-xM0CLGt7_gCEMuT5NIE', {
     'phone_conversion_number': '0751280481'
   });
 `}
