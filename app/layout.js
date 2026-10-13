@@ -19,30 +19,21 @@ export default function RootLayout({ children }) {
     <html lang="fr">
       <head>
     
-<Script
-  src="https://www.googletagmanager.com/gtag/js?id=AW-18441898443"
-  strategy="afterInteractive"
-/>
-
-<Script id="google-ads-tag" strategy="afterInteractive">
-{`
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=AW-18441898443"></script>
+<script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
 
   gtag('config', 'AW-18441898443');
-`}
-</Script>
-<Script
-  id="google-ads-conversion"
-  strategy="afterInteractive"
->
-{`
-  gtag('config', 'AW-18441898443/-xM0CLGt7_gCEMuT5NIE', {
+</script>
+<script>
+  gtag('config', 'AW-18441898443/-xM0CLGt7_gcEMuT5NlE', {
     'phone_conversion_number': '0751280481'
   });
-`}
-</Script>
+</script>
+
   
         <link 
           rel="stylesheet" 
