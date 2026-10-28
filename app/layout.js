@@ -2,7 +2,7 @@ import Footer from '@/components/Footer';
 import './globals.css';
 import Navbar from '@/components/Navbar';
 import { Poppins } from 'next/font/google';
-import Script from 'next/script'; 
+import Script from "next/script";
 
 const poppins = Poppins({
   subsets: ['latin'],
@@ -18,15 +18,31 @@ export default function RootLayout({ children }) {
   return (
     <html lang="fr">
       <head>
-  {/* Google Tag Manager */}
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-})(window,document,'script','dataLayer','GTM-N8GG45T9');</script>
-{/* End Google Tag Manager */}
-{/* Google Ads tag */}
+ {/* Google Tag Manager */}
 <Script
+  id="google-tag-manager"
+  strategy="afterInteractive"
+>
+  {`
+    (function(w,d,s,l,i) {
+      w[l] = w[l] || [];
+      w[l].push({
+        'gtm.start': new Date().getTime(),
+        event: 'gtm.js'
+      });
+
+      var f = d.getElementsByTagName(s)[0];
+      var j = d.createElement(s);
+      var dl = l !== 'dataLayer' ? '&l=' + l : '';
+
+      j.async = true;
+      j.src = 'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+
+      f.parentNode.insertBefore(j, f);
+    })(window, document, 'script', 'dataLayer', 'GTM-N8GG45T9');
+  `}
+</Script>
+{/* End Google Tag Manager */}
   src="https://www.googletagmanager.com/gtag/js?id=AW-18441898443"
   strategy="afterInteractive"
 />
