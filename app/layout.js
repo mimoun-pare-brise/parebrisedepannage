@@ -43,10 +43,10 @@ export default function RootLayout({ children }) {
   `}
 </Script>
 {/* End Google Tag Manager */}
+  <Script
   src="https://www.googletagmanager.com/gtag/js?id=AW-18441898443"
   strategy="afterInteractive"
 />
-
 <Script id="google-ads-tag" strategy="afterInteractive">
   {`
     window.dataLayer = window.dataLayer || [];
@@ -56,11 +56,12 @@ export default function RootLayout({ children }) {
     gtag('js', new Date());
     gtag('config', 'AW-18441898443');
 
-    gtag('config', 'AW-18441898443/-XMCLG7_gEMuT5NIE', {
+    gtag('config', 'AW-18441898443/-XMCLGZ_gEMuT5NTE', {
       phone_conversion_number: '0751280481'
     });
   `}
 </Script>
+
 
   
         <link 
