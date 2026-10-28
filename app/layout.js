@@ -18,7 +18,13 @@ export default function RootLayout({ children }) {
   return (
     <html lang="fr">
       <head>
-    
+    <!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-N8GG45T9');</script>
+<!-- End Google Tag Manager -->
 {/* Google Ads tag */}
 <Script
   src="https://www.googletagmanager.com/gtag/js?id=AW-18441898443"
@@ -51,6 +57,11 @@ export default function RootLayout({ children }) {
 
       </head>
       <body className={poppins.className}>
+            
+            <!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-N8GG45T9"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
         <Script
           src="/components/AppointmentFormComponent.js"
           strategy="afterInteractive"
@@ -63,6 +74,7 @@ export default function RootLayout({ children }) {
         <main>{children}</main>
         <Footer />
       </body>
+            
       
     </html>
   );
